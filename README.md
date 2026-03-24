@@ -24,7 +24,6 @@ This is a code that converts portrait images into rotoscoping animation style us
 망원 렌즈로 촬영되어 **얕은 심도**로 표현된 야구선수 사진에 동일한 알고리즘을 적용한 결과입니다. 피사체뿐만 아니라 배경의 빛망울과 흐릿한 영역까지 모두 검은색 선으로 렌더링 되었습니다.
 
 * **원본 이미지:**
-![원본 이미지 - 팀 린스컴]
 ![lincecum](https://github.com/user-attachments/assets/91bfd725-c112-45ac-9183-ead9118fece6)
 
 * **결과 이미지:**

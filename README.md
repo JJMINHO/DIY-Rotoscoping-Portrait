@@ -17,21 +17,26 @@ This is a code that converts portrait images into rotoscoping animation style us
 거친 펜 터치와 색상 단순화가 시너지를 내어, 마치 실사 영화를 한 프레임씩 펜으로 따라 그린 듯한 **로토스코핑(Rotoscoping) 애니메이션 기법 스타일**로 매우 자연스럽게 가공되었습니다.
 
 * **원본 이미지:**
-![원본 이미지 - 고윤정 배우](![Image](https://github.com/user-attachments/assets/c1600552-9416-4fbb-9ace-0b829cb97496))
+![원본 이미지 - 고윤정 배우]
+![gyj](https://github.com/user-attachments/assets/99ec5a86-101b-4e0a-abf7-fe906006e592)
 
 * **결과 이미지:**
-![잘 표현된 이미지 - 로토스코핑 스타일 인물화](![Image](https://github.com/user-attachments/assets/49b5e4bc-283b-42a4-9c8e-79eaa21e3d8e))
+![잘 표현된 이미지 - 로토스코핑 스타일 인물화]
+![success](https://github.com/user-attachments/assets/f802df58-5ddd-4468-8023-2fab28bda658)
 
 ### 🚨 2. 잘 표현되지 않은 이미지 (Failure Case)
 망원 렌즈로 촬영되어 **얕은 심도(아웃포커싱)**가 적용된 야구선수 사진에 동일한 알고리즘을 적용한 결과입니다. 피사체뿐만 아니라 배경의 빛망울과 흐릿한 영역까지 모두 지저분한 검은색 선으로 렌더링 되었습니다.
 
 * **원본 이미지:**
-![원본 이미지 - 팀 린스컴](lincecum.jpeg)
+![원본 이미지 - 팀 린스컴]
+![lincecum](https://github.com/user-attachments/assets/91bfd725-c112-45ac-9183-ead9118fece6)
 
 * **결과 이미지:**
-![잘 표현되지 않은 이미지 1](표현이%20잘%20되지%20않은%20그림.jpg)
+![잘 표현되지 않은 이미지 1]
+![fail1](https://github.com/user-attachments/assets/277a1ae1-0486-43e2-92c1-a0d05477d36f)
 
-![잘 표현되지 않은 이미지 2](표현이%20잘%20되지%20않은%20그림2.jpg)
+![잘 표현되지 않은 이미지 2]
+![fail2](https://github.com/user-attachments/assets/bff3d31e-b474-41a7-a0ae-da5a7773d602)
 
 ---
 

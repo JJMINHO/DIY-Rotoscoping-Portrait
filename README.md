@@ -17,11 +17,9 @@ This is a code that converts portrait images into rotoscoping animation style us
 거친 펜 터치와 색상 단순화가 시너지를 내어, 마치 실사 영화를 한 프레임씩 펜으로 따라 그린 듯한 **로토스코핑(Rotoscoping) 애니메이션 기법 스타일**로 매우 자연스럽게 가공되었습니다.
 
 * **원본 이미지:**
-![원본 이미지 - 고윤정 배우]
 ![gyj](https://github.com/user-attachments/assets/99ec5a86-101b-4e0a-abf7-fe906006e592)
 
 * **결과 이미지:**
-![잘 표현된 이미지 - 로토스코핑 스타일 인물화]
 ![success](https://github.com/user-attachments/assets/f802df58-5ddd-4468-8023-2fab28bda658)
 
 ### 🚨 2. 잘 표현되지 않은 이미지 (Failure Case)
@@ -33,10 +31,10 @@ This is a code that converts portrait images into rotoscoping animation style us
 
 * **결과 이미지:**
 ![fail1](https://github.com/user-attachments/assets/277a1ae1-0486-43e2-92c1-a0d05477d36f)
-얕은 심도는 표현하였으나, 사진 자체의 윤곽이 죽어있어 피사체가 상대적으로 죽어보임. 
+배경의 얕은 심도는 어느 정도 보존되었으나, 피사체를 구분 짓는 핵심 윤곽선 추출이 너무 약하게 적용되었습니다. 카툰 렌더링 특유의 뚜렷한 형태감이 살지 못하고 피사체가 배경에 묻혀버리는 한계가 나타났습니다.
 
 ![fail2](https://github.com/user-attachments/assets/bff3d31e-b474-41a7-a0ae-da5a7773d602)
-아까의 문제를 해결하기 위해 윤곽을 더 표현하였으나, 반대로 심도의 표현력이 떨어짐.
+앞선 윤곽선 약화 문제를 해결하고자 파라미터를 조정하여 엣지(Edge) 추출 강도를 높인 결과입니다. 피사체의 형태는 뚜렷해졌지만, 알고리즘이 배경의 흐릿한 빛망울이나 미세한 명암비까지 모두 윤곽선으로 인식해버렸습니다. 그 결과 원본 사진의 입체감이 훼손되고 이미지가 전체적으로 매우 지저분해지는 역효과가 발생했습니다.
 ---
 
 ## 🔍 한계점 및 논리적 분석 (Limitations Analysis)

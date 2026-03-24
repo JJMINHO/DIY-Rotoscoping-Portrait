@@ -49,8 +49,13 @@ This is a code that converts portrait images into rotoscoping animation style us
 
 ---
 
-## 🚀 실행 방법 (How to Run)
+## 실행 방법 
 1. 본 저장소를 Clone 하거나 파일을 다운로드합니다.
 2. 터미널(또는 명령 프롬프트)에서 해당 폴더로 이동한 후 아래 명령어를 실행합니다.
 ```bash
 python script.py
+```
+3. 변환된 이미지가 팝업 창에 나타납니다.
+4. 이미지 창이 활성화된 상태에서 키보드 s 또는 S를 눌러 현재 시각을 기반으로 하는 파일명과 함께 저장됩니다.
+
+

@@ -32,10 +32,8 @@ This is a code that converts portrait images into rotoscoping animation style us
 * **결과 이미지:**
 ![fail1](https://github.com/user-attachments/assets/277a1ae1-0486-43e2-92c1-a0d05477d36f)
 배경의 얕은 심도는 어느 정도 보존되었으나, 피사체를 구분 짓는 핵심 윤곽선 추출이 너무 약하게 적용되었습니다. 카툰 렌더링 특유의 뚜렷한 형태감이 살지 못하고 피사체가 배경에 묻혀버리는 한계가 나타났습니다.
-
-![fail2](https://github.com/user-attachments/assets/bff3d31e-b474-41a7-a0ae-da5a7773d602)
-
-앞선 윤곽선 문제를 해결하고자 파라미터를 조정하여 Edge 추출 강도를 높인 결과입니다. 피사체의 형태는 뚜렷해졌으나, 알고리즘이 배경의 흐릿한 빛망울이나 미세한 명암비까지 모두 윤곽선으로 인식하였습니다. 그리하여 원본의 입체감이 줄고 이미지가 전체적으로 난잡한 느낌이 들도록 처리되었습니다.
+ ![fail2](https://github.com/user-attachments/assets/bff3d31e-b474-41a7-a0ae-da5a7773d602)
+ 앞선 윤곽선 문제를 해결하고자 파라미터를 조정하여 Edge 추출 강도를 높인 결과입니다. 피사체의 형태는 뚜렷해졌으나, 알고리즘이 배경의 흐릿한 빛망울이나 미세한 명암비까지 모두 윤곽선으로 인식하였습니다. 그리하여 원본의 입체감이 줄고 이미지가 전체적으로 난잡한 느낌이 들도록 처리되었습니다.
 
 ---
 

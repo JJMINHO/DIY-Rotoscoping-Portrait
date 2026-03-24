@@ -1,8 +1,6 @@
 # DIY-Rotoscoping-Style-Cartoon-Portrait
 This is a code that converts portrait images into rotoscoping animation style using OpenCV filters.
 
-본 프로젝트는 OpenCV 라이브러리를 활용하여 일반 실사 이미지를 만화스타일로 변환하는 Python 스크립트입니다.
-
 ## 구현 파라미터 튜닝 
 강의에서 학습한 필터들을 조합하여 최적의 카툰 렌더링 결과물을 도출하기 위해 다음과 같이 파라미터를 설정했습니다.
 1. **스케치 마스크 생성 (`cv2.adaptiveThreshold`):** 기본 상수 $C$ 값을 `5`로 설정하여 윤곽선이 중간에 끊기지 않고 굵고 거친 클래식 코믹북 스타일의 펜 터치가 나오도록 하였습니다.

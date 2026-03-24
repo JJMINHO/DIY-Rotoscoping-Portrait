@@ -32,12 +32,11 @@ This is a code that converts portrait images into rotoscoping animation style us
 ![lincecum](https://github.com/user-attachments/assets/91bfd725-c112-45ac-9183-ead9118fece6)
 
 * **결과 이미지:**
-![잘 표현되지 않은 이미지 1]
 ![fail1](https://github.com/user-attachments/assets/277a1ae1-0486-43e2-92c1-a0d05477d36f)
+얕은 심도는 표현하였으나, 사진 자체의 윤곽이 죽어있어 피사체가 상대적으로 죽어보임. 
 
-![잘 표현되지 않은 이미지 2]
 ![fail2](https://github.com/user-attachments/assets/bff3d31e-b474-41a7-a0ae-da5a7773d602)
-
+아까의 문제를 해결하기 위해 윤곽을 더 표현하였으나, 반대로 심도의 표현력이 떨어짐.
 ---
 
 ## 🔍 한계점 및 논리적 분석 (Limitations Analysis)

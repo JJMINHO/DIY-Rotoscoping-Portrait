@@ -14,7 +14,7 @@ This is a code that converts portrait images into rotoscoping animation style us
 
 ### 1. 잘 표현된 이미지
 배경이 비교적 단순하고 피사체의 명암이 뚜렷한 **인물 사진**에 알고리즘을 적용한 결과입니다. 
-거친 펜 터치와 색상 단순화가 시너지를 내어, 마치 실사 영화를 한 프레임씩 펜으로 따라 그린 듯한 **로토스코핑(Rotoscoping) 애니메이션 기법 스타일**로 매우 자연스럽게 가공되었습니다.
+거친 펜 터치와 색상 단순화를 통해 **로토스코핑(Rotoscoping) 애니메이션 기법 스타일**로 매우 가공시켰습니다.
 
 * **원본 이미지:**
 ![gyj](https://github.com/user-attachments/assets/99ec5a86-101b-4e0a-abf7-fe906006e592)
@@ -23,7 +23,7 @@ This is a code that converts portrait images into rotoscoping animation style us
 ![success](https://github.com/user-attachments/assets/f802df58-5ddd-4468-8023-2fab28bda658)
 
 ### 2. 잘 표현되지 않은 이미지
-망원 렌즈로 촬영되어 **얕은 심도**로 표현된 야구선수 사진에 동일한 알고리즘을 적용한 결과입니다. 피사체뿐만 아니라 배경의 빛망울과 흐릿한 영역까지 모두 지저분한 검은색 선으로 렌더링 되었습니다.
+망원 렌즈로 촬영되어 **얕은 심도**로 표현된 야구선수 사진에 동일한 알고리즘을 적용한 결과입니다. 피사체뿐만 아니라 배경의 빛망울과 흐릿한 영역까지 모두 검은색 선으로 렌더링 되었습니다.
 
 * **원본 이미지:**
 ![원본 이미지 - 팀 린스컴]
